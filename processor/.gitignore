@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.uv/
+cache/
+state/
+token.json
+credentials.json
+.DS_Store

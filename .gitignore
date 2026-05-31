@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Processor
+processor/.venv/
+processor/cache/
+processor/__pycache__/
+processor/src/**/__pycache__/
+# Pipeline state — keep labels.json (your cluster names) but skip the rest,
+# which can contain large face embedding vectors.
+processor/state/*
+!processor/state/labels.json
+processor/token.json
+processor/credentials.json
+processor/*.egg-info/
+
+# Website
+website/node_modules/
+website/dist/
+website/.vite/
+website/*.tsbuildinfo

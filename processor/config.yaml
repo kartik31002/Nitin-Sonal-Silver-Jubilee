@@ -1,0 +1,9 @@
+event_title: Gupta Family Wedding
+google_drive_folder: "https://drive.google.com/drive/folders/1xa8getIqFhGGVxtUuc4dCEBkkc0wQgwf"
+thumbnail_size: 400
+face_thumbnail_size: 256
+dbscan_eps: 0.45
+dbscan_min_samples: 2
+min_face_size: 80
+detection_confidence: 0.5
+download_concurrency: 4
